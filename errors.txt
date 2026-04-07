@@ -1,0 +1,23 @@
+src/components/Dashboard.tsx(111,46): error TS2345: Argument of type '() => string[]' is not assignable to parameter of type '() => ViewType[]'.
+  Type 'string[]' is not assignable to type 'ViewType[]'.
+    Type 'string' is not assignable to type 'ViewType'.
+src/components/NewDashboard.tsx(3,25): error TS2305: Module '"@/lib/types"' has no exported member 'Category'.
+src/components/NewDashboard.tsx(3,35): error TS2305: Module '"@/lib/types"' has no exported member 'Supplier'.
+src/components/NewDashboard.tsx(3,45): error TS2305: Module '"@/lib/types"' has no exported member 'InventoryMovement'.
+src/components/NewDashboard.tsx(13,42): error TS2305: Module '"@/lib/database"' has no exported member 'DEFAULT_CATEGORIES'.
+src/components/NewDashboard.tsx(13,62): error TS2305: Module '"@/lib/database"' has no exported member 'DEFAULT_SUPPLIERS'.
+src/components/NewDashboard.tsx(48,11): error TS2739: Type '{ id: string; createdAt: string; updatedAt: string; sku: string; name: string; categoryId: string; quantity: number; minStock: number; price: number; cost: number; supplierId: string; location?: string | undefined; barcode?: string | undefined; description?: string | undefined; }' is missing the following properties from type 'Product': category, supplier
+src/components/NewDashboard.tsx(65,28): error TS2339: Property 'id' does not exist on type 'User'.
+src/components/NewDashboard.tsx(109,30): error TS2339: Property 'id' does not exist on type 'User'.
+src/components/NewDashboard.tsx(133,7): error TS2353: Object literal may only specify known properties, and 'categories' does not exist in type 'DatabaseBackup'.
+src/components/NewDashboard.tsx(151,28): error TS2339: Property 'categories' does not exist on type 'DatabaseBackup'.
+src/components/NewDashboard.tsx(152,27): error TS2339: Property 'suppliers' does not exist on type 'DatabaseBackup'.
+src/components/NewDashboard.tsx(153,27): error TS2339: Property 'movements' does not exist on type 'DatabaseBackup'.
+src/components/NewDashboard.tsx(172,47): error TS2554: Expected 1 arguments, but got 2.
+src/components/NewDashboard.tsx(172,49): error TS2339: Property 'minStock' does not exist on type 'Product'.
+src/components/NewDashboard.tsx(176,62): error TS2339: Property 'cost' does not exist on type 'Product'.
+src/components/NewDashboard.tsx(309,15): error TS2322: Type '{ products: Product[]; categories: Category[]; suppliers: Supplier[]; onEdit: Dispatch<SetStateAction<Product | null>> | undefined; onDelete: Dispatch<SetStateAction<string | null>> | undefined; }' is not assignable to type 'IntrinsicAttributes & InventoryTableProps'.
+  Property 'categories' does not exist on type 'IntrinsicAttributes & InventoryTableProps'.
+src/components/NewDashboard.tsx(324,71): error TS2551: Property 'categoryId' does not exist on type 'Product'. Did you mean 'category'?
+src/components/NewDashboard.tsx(357,73): error TS2551: Property 'supplierId' does not exist on type 'Product'. Did you mean 'supplier'?
+src/lib/permissions-utils.ts(52,35): error TS2367: This comparison appears to be unintentional because the types '"inventory:hideAlert" | "orders" | "orders:details" | "orders:edit" | "orders:cancel" | "orders:complete" | "dailyclose" | "dailyclose:delete" | "users" | "audit"' and '"socials"' have no overlap.

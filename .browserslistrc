@@ -1,0 +1,25 @@
+# Navegadores soportados para compatibilidad máxima
+
+# Producción - navegadores modernos
+> 0.5%
+last 2 versions
+Firefox ESR
+not dead
+not IE 11
+
+# Chrome y derivados
+Chrome >= 90
+Edge >= 90
+
+# Firefox
+Firefox >= 88
+
+# Safari
+Safari >= 14
+iOS >= 14
+
+# Samsung Internet
+Samsung >= 13
+
+# Opera
+Opera >= 76
